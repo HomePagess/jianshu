@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+#modify {
+	padding: 15px;
+	padding-top: 30px;
+}
+
+#modify label {
+	font-weight: 400;
+}
+
+#modify .form-group {
+	margin-bottom: 20px;
+	'
+}

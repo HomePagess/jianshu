@@ -1,0 +1,59 @@
+
+
+
+/*轮播开始*/
+#main-carousel .carousel-control>span {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	display: inline-block;
+	font-size: 40px;
+}
+#main-carousel a.left span {
+	left: 30%;
+}
+#main-carousel a.right span {
+	right: 30%;
+}
+
+/*轮播结束*/
+#article_msg {
+	margin:30px auto;
+}
+#article_msg>.row {
+	margin:0;
+	padding:20px 15px;
+	background:#fff;
+}
+.article_index {
+	padding:10px 5px;
+}
+.article_index .article_index_pic img {
+	width:120px;
+	height:100px;
+}
+.article_index .article_index_author img {
+	width:35px;
+	height:35px;
+	border-radius:50%;
+}
+
+
+
+
+
+
+/*媒体查询*/
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+	
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+	
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	
+}

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#write {
+	padding: 15px;
+	margin-top: 20px;
+}
+
+#write .xheditor {
+	min-height: 600px;
+}
+
+#write .col-xs-offset-10 {
+	text-align: right;
+}

@@ -1,0 +1,203 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #fff;
+	font-size: 17px !important;
+	font-family: -apple-system, SF UI Text, Arial, PingFang SC,
+		Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei,
+		sans-serif !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input {
+	outline: none;
+}
+
+.sign {
+	height: 100%;
+	min-height: 750px;
+	text-align: center;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+.sign .logo {
+	position: absolute;
+	top: 56px;
+	margin-left: 50px;
+}
+
+.logo img {
+	width: 100px;
+}
+
+.sign .main {
+	width: 400px;
+	margin: 60px auto 0;
+	padding: 50px 50px 30px;
+	background: #fff;
+	border-radius: 4px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.main .title {
+	margin: 0 auto 50px;
+	padding: 10px;
+	color: #969696;
+}
+
+.title a {
+	padding: 10px;
+	color: #969696;
+}
+
+.title b {
+	padding: 10px;
+}
+
+#login-btn {
+	font-weight: 700;
+	color: #ea6f5a;
+	border-bottom: 2px solid #ea6f5a;
+}
+
+.login-container form .input-prepend {
+	position: relative;
+	width: 100%;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.login-container form .input-prepend input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: -1px;
+	padding: 4px 12px 4px 35px;
+	border: 1px solid #c8c8c8;
+	border-radius: 0 0 4px 4px;
+	background-color: hsla(0, 0%, 71%, .1);
+	vertical-align: middle;
+}
+
+.login-container form .restyle {
+	margin-bottom: 0;
+}
+
+.login-container form .restyle input {
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+}
+
+.login-container form .input-prepend span {
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	font-size: 18px;
+	color: #969696;
+}
+
+.login-container form .input-prepend .yzm {
+	padding-left: 120px;
+}
+
+.login-container form .input-prepend #pan {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.login-container form .no-radius input {
+	border-radius: 0;
+}
+
+.login-container form .no-radius span {
+	font-size: 20px;
+}
+
+.login-container form .login-button {
+	width: 100%;
+	padding: 9px 18px;
+	font-size: 18px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background: #187cb7;
+	display: block;
+	clear: both;
+}
+
+.more-sign {
+	margin-top: 30px;
+}
+
+.more-sign h6 {
+	position: relative;
+	margin: 0 0 20px;
+	font-size: 14px;
+	color: #b5b5b5;
+}
+
+.more-sign h6:before {
+	left: 30px;
+}
+
+.more-sign h6:after {
+	right: 30px;
+}
+
+.more-sign h6:before, .more-sign h6:after {
+	content: "";
+	border-top: 1px solid #b5b5b5;
+	display: block;
+	position: absolute;
+	width: 60px;
+	top: 5px;
+}
+
+.more-sign ul {
+	padding-left: 0 !important;
+}
+
+.more-sign ul li {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.more-sign ul li a:hover {
+	text-decoration: none;
+}
+
+.more-sign ul li a.weixin span {
+	color: #00bb29;
+	font-size: 50px;
+}
+
+.more-sign ul li a.weibo span {
+	color: #e05244;
+	font-size: 54px;
+}
+
+.more-sign ul li a.qq span {
+	color: #498ad5;
+	font-size: 54px;
+}
+
+/*媒体查询*/
+
+/* 小屏幕（平板，大于等于 768px） */
+@media ( min-width : 768px) {
+	.sign {
+		background-color: #f1f1f1;
+		box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+	}
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media ( min-width : 992px) {
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media ( min-width : 1200px) {
+}

@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+#detail {
+	margin: 15px auto;
+	padding: 10px 100px 30px;
+	background: #fff;
+}
+
+#detail h4.title {
+	padding: 15px 0;
+	text-align: center;
+}
+
+#detail  .user {
+	clear: both;
+}
+
+.user .name {
+	padding: 6px 0;
+}
+
+.name img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.user .meta a {
+	display: inline-block;
+	padding: 12px 10px;
+	vertical-align: top;
+}
+
+.user .meta a svg {
+	font-size: 22px;
+	color: #333;
+}
+
+.user .meta a span {
+	display: inline-block;
+	line-height: 22px;
+	vertical-align: top;
+}
+
+.user .focus {
+	padding: 0;
+	line-height: 1;
+}
+
+.user .focus svg {
+	line-height: 1;
+	color: #ea6f5a;
+	font-size: 50px;
+}
+
+.user .time {
+	padding: 13px 0;
+}
+
+#detail .content {
+	padding: 40px 0;
+	min-height: 500px;
+}
+
+.comment textarea {
+	height: 80px;
+}
+
+.comment .send {
+	text-align: right;
+}
+
+.comment_list .comment_content {
+	padding: 15px;
+	min-height: 80px;
+}
+
+.comment_list .comment_wrap {
+	padding: 15px;
+	border-top: 1px solid #eee;
+}
+
+.reply svg {
+	font-size: 18px;
+}
+
+.reply a.reply_btn span {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.reply .reply_form {
+	display: none;
+}
+
+.reply .send {
+	text-align: right;
+}
